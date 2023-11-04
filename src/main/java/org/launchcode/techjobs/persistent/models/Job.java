@@ -19,7 +19,7 @@ public class Job extends AbstractEntity {
     public Job() {
     }
 
-    // Initialize the id and value fields.
+    // Initialize the id and value fields
 
     public Job(Employer employer, List<Skill> skills) {
         this.employer = employer;
